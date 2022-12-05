@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Validate a credit card number</h1>
+    <div class="cards-container">
+        <div class="card"><img class="img amex disabled" src="./img/americanExpress.png" alt=""></div>
+        <div class="card"><img class="img diners disabled" src="./img/diners.png" alt=""></div>
+        <div class="card"><img class="img discover disabled" src="./img/discover.png" alt=""></div>
+        <div class="card"><img class="img jsb disabled" src="./img/jcb.png" alt=""></div>
+        <div class="card"><img class="img master disabled" src="./img/masterCard.png" alt=""></div>
+        <div class="card"><img class="img mir disabled" src="./img/mir.png" alt=""></div>
+        <div class="card"><img class="img visa disabled" src="./img/visa.png" alt=""></div>
+    </div>
+    <div class="card-validation-widjet">
+        <form>
+            <label>Inter card number:<input name="filter-text" class="input-number"></label>
+            <button type ="submit" class="btn">Validate card</button>
+        </form>
+    </div>
+    <div class="valid-card">Card valid</div>
+    <div class="not-valid-card">Card not valid</div>
+    <script src="js/app.js" type="module"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</body>
+</html>
